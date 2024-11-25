@@ -1,0 +1,55 @@
+.socials-link {
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    cursor: pointer;
+  }
+}
+
+.switch-item {
+  transition: 0.5s;
+}
+
+.item-list {
+  list-style-type: circle;
+}
+
+
+*::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #6e829c;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #061d31;
+  border-radius: 0px;
+}
+
+input{
+  color: white;
+  background-color: unset;
+  -moz-appearance: textfield;
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  &:focus{
+    outline: unset;
+  }
+
+  font-size: 15px;
+}
+
+.x-leaderboard{
+  & > *{
+    color: black !important;
+  }
+}
